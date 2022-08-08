@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/swiper-bundle.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Batman</title>
 </head>
 <body>
     <header class="header">
@@ -24,12 +24,9 @@
                     <a href="#">Трейлер</a>
                     <a href="#">Отзывы</a>
                 </nav>
+                
             </div>
-            <div class="header_menu_close">
-                <img src="img/menu-button-close.svg" alt="">
-            </div>
-
-            <div class="header_socials">
+                <div class="header_socials">
                 <a class="header_socials_icon"href="#">
                     <img src="img/twitter.svg" alt="">
                 </a>
@@ -39,11 +36,22 @@
                 <a class="header_socials_icon"href="#">
                     <img src="img/facebook.svg" alt="">
                 </a>
-            </div>
+                </div>
+            <nav class="header_menu_nav-mobile">
+                    <a href="#">Описание</a>
+                    <a href="#">Трейлер</a>
+                    <a href="#">Отзывы</a>
+            </nav>
+            <div class="header_menu_close">
+                <img src="img/menu-button-close.svg" alt="">
+            </div>     
        </div>
     </header>
     <main class="main">
         <div class="container">
+            <div class="menu_burger">
+                <img src="img/burger.svg" alt="">
+            </div>
             <div class="main_rating">
                 <div class="main_rating_title"> 2022, боевик, триллер </div>
                 <div class="main_rating-wrap">
@@ -80,13 +88,13 @@
                         ""></div>
                     </div>
                     <div class="main_rating_number">7/10</div>
-              </div>
+                </div>
             </div>
             <h1 class="main_header">Бэтмен</h1>
             <div class="main-description_wrap">
                 <div class="main_description">После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.</div>
                 <div class="main_button_play">
-                        <img src="img/play-button.svg" alt="">
+                    <img src="img/play-button.svg" alt="">
                 </div>
             </div>
             <a href="#" class="main_button">Купить билеты</a>
@@ -142,6 +150,11 @@
             </ul>
         </div>
     </footer>
+    <div class="modal close">
+        <div class="modal_inner">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sdp6VL_NBnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
     <script src="js/swiper-bundle.js"></script>
     <script src="js/main.js"></script>
 </body>
